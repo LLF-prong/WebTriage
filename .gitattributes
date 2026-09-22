@@ -1,0 +1,15 @@
+# Normalize line endings so Windows and Linux contributors produce identical
+# files. Text files are stored with LF in the repository.
+* text=auto eol=lf
+
+# Explicitly binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.safetensors binary
+*.bin binary
+*.gguf binary
+*.zip binary
